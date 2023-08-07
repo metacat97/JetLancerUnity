@@ -1,0 +1,19 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/testUssFile.uss?fileID=7433441132597879392&amp;guid=54aae7de33fc22143a475e68c715cc2c&amp;type=3#testUssFile" />
+    <Style src="project://database/Assets/ussFolder/test2_uss_file.uss?fileID=7433441132597879392&amp;guid=cfb817a455d92cd44ba41ec78315a85c&amp;type=3#test2_uss_file" />
+    <ui:VisualElement style="-unity-background-image-tint-color: rgb(255, 255, 255); width: 100%; height: 100%; background-color: rgba(255, 0, 0, 0); flex-direction: column; justify-content: flex-start;">
+        <ui:VisualElement style="width: 100%; height: 50%; background-color: rgba(255, 0, 13, 0.29); flex-direction: row; align-items: flex-end; justify-content: space-around;">
+            <ui:VisualElement name="image_Boy" class="change_Boy" />
+            <ui:VisualElement name="image_Boss" class="boss_style" />
+        </ui:VisualElement>
+        <ui:VisualElement style="width: 100%; height: 50%; background-color: rgba(251, 255, 0, 0.18); justify-content: space-between;">
+            <ui:VisualElement style="background-color: rgba(84, 84, 84, 0.53);">
+                <ui:Label text="Ash" display-tooltip-when-elided="true" name="player_Name" class="test_uss_text" />
+                <ui:Label text="With great power comes great responsibility." display-tooltip-when-elided="true" name="player_text" style="font-size: 36px; color: rgb(255, 255, 255); flex-wrap: wrap; border-left-width: 4px; border-right-width: 4px; border-top-width: 4px; border-bottom-width: 4px; border-left-color: rgb(231, 16, 16); border-right-color: rgb(231, 16, 16); border-top-color: rgb(231, 16, 16); border-bottom-color: rgb(231, 16, 16); cursor: initial; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 80px; padding-right: 80px; padding-top: 20px; padding-bottom: 20px; -unity-font-definition: url(&apos;project://database/Assets/01.Project/Fonts/DungGeunMo%20SDF.asset?fileID=11400000&amp;guid=ba09569a062a9e34982b2d643140f22d&amp;type=2#DungGeunMo SDF&apos;);" />
+            </ui:VisualElement>
+            <ui:VisualElement style="justify-content: center; width: 100%; height: 240px; padding-left: 60px; padding-right: 60px;">
+                <ui:Button text="Button" display-tooltip-when-elided="true" class="blue_btn" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

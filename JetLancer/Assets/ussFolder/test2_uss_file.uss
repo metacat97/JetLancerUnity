@@ -1,0 +1,25 @@
+.change_Boy {
+    width: 300px;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url('project://database/Assets/01.Project/Sprites/Export_Sprites/sp_de_pilot_pissed_0.png?fileID=2800000&guid=454214bdfe5bd9f40bd3d3ccad738bff&type=3#sp_de_pilot_pissed_0');
+}
+
+.change_Boy:hover {
+    background-image: url('project://database/Assets/01.Project/Sprites/Export_Sprites/sp_de_pilot_scared_0.png?fileID=2800000&guid=ef35e5bf8918c1f4fa6ebf0ccf6a1bf4&type=3#sp_de_pilot_scared_0');
+    transition-timing-function: ease-in-out-sine;
+    transition-duration: 0.1s;
+    width: 300px;
+    height: 500px;
+}
+
+.boss_style {
+    width: 300px;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url('project://database/Assets/01.Project/Sprites/Export_Sprites/sp_finalboss_charge_to_attack_1.png?fileID=2800000&guid=251aad89bf5ba9043ace3bb0edb3176c&type=3#sp_finalboss_charge_to_attack_1');
+}
+
+.boss_style:hover {
+    background-image: url('project://database/Assets/01.Project/Sprites/Export_Sprites/sp_finalboss_cast_0.png?fileID=2800000&guid=c6ec58a473ae5ab47a16cb9408937057&type=3#sp_finalboss_cast_0');
+}

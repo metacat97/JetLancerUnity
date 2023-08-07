@@ -53,5 +53,5 @@ public class TitleUIManager : MonoBehaviour
         {
             UnityEditor.EditorApplication.isPlaying = false;
         }
-    }
+    } 
 }
